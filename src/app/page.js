@@ -1,14 +1,15 @@
-// 'use client'
-import Image from "next/image";
-import Nav from "@/components/Nav";
+'use client'
 
+import Image from "next/image";
+import Nav from "@/components/header/Nav";
+// import Header from "@/components/header/header";
+// import Header from "@/layout/User/MainLayout/index";
 export default function Home() {
   return (
-    <>
-      <div>
-        <Nav />
-        <p> Trang chủ hệ thống</p>
-      </div>
-    </>
+    <section>
+      {/* <Header /> */}
+      <Nav />
+      <p> Trang chủ hệ thống</p>
+    </section>
   );
 }
